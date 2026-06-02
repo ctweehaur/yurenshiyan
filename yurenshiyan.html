@@ -72,8 +72,8 @@
     let pIdx = 0;
     let html = '';
     for (let c of chars) {
-        // 【核心修复】：正则表达式加入了 0-9 和 \. 让阿拉伯数字和半角点号自动变成不消耗拼音的标点样式！
-        if (/[，。？！：“”‘’（）《》、\-\:；—\(\)→\s0-9\.]/.test(c)) {
+        // 【核心精准修复】：正则表达式中加入了 … 从而让全角省略号以及点号全部进入不消耗拼音的标点分支！
+        if (/[，。？！：“”‘’（）《》、\-\:；—\(\)→\s0-9\.…]/.test(c)) {
             html += `<span class="punctuation">${c}</span>`;
         } else {
             const p = pys[pIdx] || '';
@@ -93,7 +93,8 @@ function alignTextWithPrefix(prefix, zh, py) {
     html += `<span class="char-box" style="margin-right: 8px !important;"><span class="py-text">&nbsp;</span><span class="zh-text" style="font-weight: bold; color: #1e293b;">${prefix}</span></span>`;
     let pIdx = 0;
     for (let c of chars) {
-        if (/[，。？！：“”‘’（）《》、\-\:；—\(\)→\s0-9\.]/.test(c)) {
+        // 【核心精准修复】：在这里同步加入 … 符号拦截过滤
+        if (/[，。？！：“”‘’（）《》、\-\:；—\(\)→\s0-9\.…]/.test(c)) {
             html += `<span class="punctuation">${c}</span>`;
         } else {
             const p = pys[pIdx] || '';
