@@ -47,15 +47,15 @@ const quizQuestions = [
         options: [
             {
                 text: "表因果关系的关联词（因为……所以）",
-                py: "biǎo yīn guǒ guān xì de guān lián cí yīn wèi &nbsp; &nbsp; suǒ yǐ", // 用 &nbsp; 给 （因为……所以）中的括号和点号精准占位
+                py: "biǎo yīn guǒ guān xì de guān lián cí yīn wèi suǒ yǐ", 
                 en: "A causal conjunction meaning 'therefore'.",
                 correct: false,
                 explanation: "错误。在古汉语中，“所以……者”是一个固定搭配短语，用来表示“……的原因”。",
-                explanationPy: "cuò wù zài gǔ dài hàn yǔ zhōng suǒ yǐ &nbsp; &nbsp; zhě shì yī gè gù dìng dā pèi duǎn yǔ yòng lái biǎo shì de yuán yīn"
+                explanationPy: "cuò wù zài gǔ dài hàn yǔ zhōng suǒ yǐ zhě shì yī gè gù dìng dā pèi duǎn yǔ yòng lái biǎo shì de yuán yīn"
             },
             {
                 text: "……的原因、……的缘故",
-                py: "&nbsp; &nbsp; de yuán yīn &nbsp; &nbsp; de yuán gù", // 精准适配截图C选项：为前面的点号预留空白，让“原因”和“缘故”完美咬合！
+                py: "de yuán yīn de yuán gù", 
                 en: "The reason why / the cause of.",
                 correct: true,
                 explanation: "正确！“所以美者”指的就是“饭菜之所以美味的原因”。",
@@ -63,7 +63,7 @@ const quizQuestions = [
             },
             {
                 text: "用来……的工具或办法",
-                py: "yòng lái &nbsp; &nbsp; de gōng jù huò bàn fǎ", // 精准适配截图D选项：为“用来……的”中间的点号留出2个拼音空位，让后面的汉字完美咬合！
+                py: "yòng lái de gōng jù huò bàn fǎ",
                 en: "The tool or method by which...",
                 correct: false,
                 explanation: "错误。虽然“所以”能表示工具方法，但结合后文的“缘有盐故”，此处特指原因。",
