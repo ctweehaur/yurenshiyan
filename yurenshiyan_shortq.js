@@ -50,7 +50,7 @@ const shortQData = [
         ],
         sEn: "Step 1: Summarize his analysis of why the food tasted good ('the reason it is delicious is the salt').<br>Step 2: Explain his greedy inference: if a little salt is so good, then a huge amount must be vastly superior.",
         aZh: "他认为饭菜之所以美味，完全是因为加了盐的缘故。既然加少量的盐尚且如此好吃，那么如果放很多的盐，味道肯定会成倍地更加鲜美。",
-        aPy: "tā rèn wéi fàn cài zhī suǒ yǐ měi wèi wán quán ... jiā le yán de yuán gù jì rán jiā shǎo liàng de yán shàng qiě rú cǐ hǎo chī nà me rú guǒ fàng hěn duō de yán wèi dào kěn dìng huì chéng bèi de gèng jiā xiān měi",
+        aPy: "tā rèn wéi fàn cài zhī suǒ yǐ měi wèi wán quán shì jiā le yán de yuán gù jì rán jiā shǎo liàng de yán shàng qiě rú cǐ hǎo chī nà me rú guǒ fàng hěn duō de yán wèi dào kěn dìng huì chéng bèi de gèng jiā xiān měi",
         aEn: "He concluded that the food's delicious taste was due entirely to the salt. He reasoned that if a tiny sprinkle of salt worked such wonders, then devouring a mountain of salt would yield flavor."
     },
     {
@@ -74,7 +74,7 @@ const shortQData = [
     {
         id: "Q5",
         qZh: "结合大马中学生的日常生活，这篇寓言故事告诉了我们什么实用的做人做事道理？",
-        qPy: "jié hé dà mǎ zhōng xué shēng de rì cháng shēng huó zhè piān yù yán gù ... gào sù le wǒ men shén me shí yòng de zuò rén zuò ... dào lǐ",
+        qPy: "jié hé dà mǎ zhōng xué shēng de rì cháng shēng huó zhè piān yù yán gù shì gào sù le wǒ men shén me shí yòng de zuò rén zuò shì dào lǐ",
         qEn: "Connecting to the daily life of Malaysian students, what practical lesson does this fable convey regarding our behavior?",
         sZh: [
             "1. 总结核心生活真理：做任何事情都要懂得适可而止，掌握好合理的“分寸和度”，不能急于求成。",
@@ -86,7 +86,7 @@ const shortQData = [
         ],
         sEn: "Step 1: Extrapolate the core life truth: moderation is key; everything must be guided by a proper balance rather than greed.<br>Step 2: Connect to a practical example: snacking, playing video games, or exercising is healthy in moderation, but overloading will devastate studies and well-being.",
         aZh: "告诉我们做任何事都要掌握好合理的度，懂得适可而止。正如中学生平时打电子游戏或吃零食，适度进行可以放松身心，但如果过度沉迷，反而会荒废学业、损害健康，让好事变成祸害。",
-        aPy: "gào sù wǒ men zuò rèn hé shì qing dōu yào zhǎng wò hǎo hé lǐ de dù dǒng dé shì kě ér zhǐ zhèng rú zhōng xué shēng píng shí dǎ diàn zǐ yóu xì huò chī líng shí shì dù jìn xíng kě yǐ fàng sōng shēn xīn dàn rú guǒ guò dù chén mí fǎn ér huì huāng fèi xué yè sǔn hài jiàn kāng ràng hǎo ... biàn chéng huò hài",
+        aPy: "gào sù wǒ men zuò rèn hé shì qing dōu yào zhǎng wò hǎo hé lǐ de dù dǒng dé shì kě ér zhǐ zhèng rú zhōng xué shēng píng shí dǎ diàn zǐ yóu xì huò chī líng shí shì dù jìn xíng kě yǐ fàng sōng shēn xīn dàn rú guǒ guò dù chén mí fǎn ér huì huāng fèi xué yè sǔn hài jiàn kāng ràng hǎo shì biàn chéng huò hài",
         aEn: "It teaches us that everything requires a healthy balance and knowing when to stop. Just like secondary students playing video games or snacking: done in moderation, it relieves stress, but overdoing it will destroy academic progress and physical health."
     }
 ];
