@@ -55,7 +55,7 @@ const quizQuestions = [
             },
             {
                 text: "……的原因、……的缘故",
-                py: "&nbsp; &nbsp; &nbsp; &nbsp; de yuán yīn &nbsp; &nbsp; &nbsp; &nbsp; de yuán gù", // 精准适配截图C选项：为前面的点号预留空白，让“原因”和“缘故”完美咬合！
+                py: "&nbsp; &nbsp; de yuán yīn &nbsp; &nbsp; de yuán gù", // 精准适配截图C选项：为前面的点号预留空白，让“原因”和“缘故”完美咬合！
                 en: "The reason why / the cause of.",
                 correct: true,
                 explanation: "正确！“所以美者”指的就是“饭菜之所以美味的原因”。",
