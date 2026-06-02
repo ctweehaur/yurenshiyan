@@ -81,8 +81,8 @@ const quizQuestions = [
     },
     {
         id: 3,
-        text: "环境内容，主人是如何让嫌淡无味的饭菜变好iches的？",
-        py: "gēn jù wén zhāng nèi róng zhǔ rén ... rú hé ràng xián dàn wú wèi de fàn cài biàn hǎo chī de",
+        text: "根据文章内容，主人是如何让嫌淡无味的饭菜变好吃的？",
+        py: "gēn jù wén zhāng nèi róng zhǔ rén shì rú hé ràng xián dàn wú wèi de fàn cài biàn hǎo chī de",
         en: "According to the text, how did the host make the bland food taste better?",
         options: [
             {
